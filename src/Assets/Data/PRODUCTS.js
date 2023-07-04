@@ -5,7 +5,7 @@ export const PRODUCTS = [
     },
     {
         id: 1,
-        name: "Cakes",
+        name: "Cookies",
     },
     {
         id: 2,
@@ -13,6 +13,6 @@ export const PRODUCTS = [
     },
     {
         id: 3,
-        name: "Cookies",
+        name: "Cakes",
     },
 ]

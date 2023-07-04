@@ -8,12 +8,18 @@ import { PRODUCT } from "../../Assets/Data/PRODUCT";
 
 const ProductAccordian = () => {
    let arr = []; 
-    PRODUCT.forEach((element) => {
-        for (let i = 0; i <= PRODUCT.length; i++){
-            arr.push(element.data[i].name)
+    PRODUCT.forEach((product) => {
+        for (let i = 0; i < product.data.length; i++){
+            if(product.data[i].name) {
+                arr.push(product.data[i].name)
+            } else {
+                console.log("nothing")
+            }
+
         }
 
     })
+    console.log(arr)
     return (
         <Container>
             <Row>
@@ -22,7 +28,7 @@ const ProductAccordian = () => {
                         <>
                             <h1 key={products.id}>{`${products.name}`}</h1>
                             <Accordian>
-                                {PRODUCT.map((product) => {
+                                {arr.map((product) => {
                                     return (
                                         <Accordian.Item key={product.id} eventKey={`${product.id}`}>
                                             <Accordian.Header>

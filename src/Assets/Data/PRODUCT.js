@@ -4,20 +4,26 @@ export const PRODUCT = [
         name: "Brownies",
         data: [
             {
-                id: 0,
+                id: 1,
                 name: "Brownie 1",
                 price: "$4.99",
                 calorie: "50"
             },
             {
-                id: 1,
+                id: 2,
                 name: "Brownie 2",
                 price: "$4.99",
                 calorie: "50"
             },
             {
-                id: 2,
+                id: 3,
                 name: "Brownie 3",
+                price: "$4.99",
+                calorie: "50"
+            },
+            {
+                id: 4,
+                name: "Brownie 4",
                 price: "$4.99",
                 calorie: "50"
             },
@@ -47,52 +53,52 @@ export const PRODUCT = [
             },
         ]
     },
-    // {
-    //     id: 2,
-    //     name: "Cheesecakes",
-    //     data: [
-    //         {
-    //             id: 0,
-    //             name: "7",
-    //             price: "$4.99",
-    //             calorie: "50"
-    //         },
-    //         {
-    //             id: 1,
-    //             name: "8",
-    //             price: "$4.99",
-    //             calorie: "50"
-    //         },
-    //         {
-    //             id: 2,
-    //             name: "9",
-    //             price: "$4.99",
-    //             calorie: "50"
-    //         },
-    //     ]
-    // },
-    // {
-    //     id: 3,
-    //     name: "Cheesecakes",
-    //     data: [
-    //         {
-    //             id: 0,
-    //             name: "7",
-    //             price: "$4.99",
-    //             calorie: "50"
-    //         },
-    //         {
-    //             id: 1,
-    //             name: "8",
-    //             price: "$4.99",
-    //             calorie: "50"
-    //         },
-    //         {
-    //             id: 2,
-    //             name: "9",
-    //             price: "$4.99",
-    //             calorie: "50"
-    //         },
-    //     ]
-    // },
+    {
+        id: 2,
+        name: "Cheesecakes",
+        data: [
+            {
+                id: 0,
+                name: "7",
+                price: "$4.99",
+                calorie: "50"
+            },
+            {
+                id: 1,
+                name: "8",
+                price: "$4.99",
+                calorie: "50"
+            },
+            {
+                id: 2,
+                name: "9",
+                price: "$4.99",
+                calorie: "50"
+            },
+        ]
+    },
+//     {
+//         id: 3,
+//         name: "Cake",
+//         data: [
+//             {
+//                 id: 0,
+//                 name: "7",
+//                 price: "$4.99",
+//                 calorie: "50"
+//             },
+//             {
+//                 id: 1,
+//                 name: "8",
+//                 price: "$4.99",
+//                 calorie: "50"
+//             },
+//             {
+//                 id: 2,
+//                 name: "9",
+//                 price: "$4.99",
+//                 calorie: "50"
+//             },
+//         ]
+//     },
 ]
