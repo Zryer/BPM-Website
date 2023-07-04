@@ -1,6 +1,7 @@
 import App from './App';
-import { createRoot } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 const root = createRoot(document.getElementById('root'));

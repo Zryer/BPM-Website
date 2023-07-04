@@ -1,8 +1,16 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Container';
+
 const Home = () => {
     return (
-        <div>
-            <h1>Bakery Name</h1>
-        </div>
+        <Container fluid>
+            <Row>
+                <Col>
+                    <h1>Bakery Name</h1>
+                </Col>
+            </Row>
+        </Container>
     )
 }
 

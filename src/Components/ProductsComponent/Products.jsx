@@ -1,12 +1,11 @@
-import Card from "../CardComponent/Card";
+import ProductAccordian from "../AccordianComponent/Accordian";
 
 const Products = () => {
     return (
-        <div className="mainContainer">
-            <Card />
-            <Card />
-            <Card />
-        </div>
+        <>
+            <h1 style={{ textAlign: "center", margin: "2rem" }}>Click on any of the category dropdowns to see the products!</h1>
+            <ProductAccordian />
+        </>
     )
 }
 
