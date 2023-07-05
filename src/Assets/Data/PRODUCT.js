@@ -27,6 +27,12 @@ export const PRODUCT = [
                 price: "$4.99",
                 calorie: "50"
             },
+            {
+                id: 5,
+                name: "Brownie 5",
+                price: "$4.99",
+                calorie: "50"
+            },
         ]
     },
     {
@@ -77,28 +83,28 @@ export const PRODUCT = [
             },
         ]
     },
-//     {
-//         id: 3,
-//         name: "Cake",
-//         data: [
-//             {
-//                 id: 0,
-//                 name: "7",
-//                 price: "$4.99",
-//                 calorie: "50"
-//             },
-//             {
-//                 id: 1,
-//                 name: "8",
-//                 price: "$4.99",
-//                 calorie: "50"
-//             },
-//             {
-//                 id: 2,
-//                 name: "9",
-//                 price: "$4.99",
-//                 calorie: "50"
-//             },
-//         ]
-//     },
+    {
+        id: 3,
+        name: "Cake",
+        data: [
+            {
+                id: 0,
+                name: "10",
+                price: "$4.99",
+                calorie: "50"
+            },
+            {
+                id: 1,
+                name: "11",
+                price: "$4.99",
+                calorie: "50"
+            },
+            {
+                id: 2,
+                name: "12",
+                price: "$4.99",
+                calorie: "50"
+            },
+        ]
+    },
 ]
