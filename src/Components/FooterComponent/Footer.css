@@ -1,0 +1,7 @@
+@media(min-width: 576px) {
+    .footerContainer {
+            position:fixed;
+            bottom:0;
+            left:0;
+    }
+}

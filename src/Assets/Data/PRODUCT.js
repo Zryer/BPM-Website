@@ -2,34 +2,35 @@ export const PRODUCT = [
     {
         id: 0,
         name: "Brownies",
+        image: require("../Images/BrowniesMain.jpg"),
         data: [
             {
                 id: 1,
-                name: "Brownie 1",
+                name: "Brownie1",
                 price: "$4.99",
                 calorie: "50"
             },
             {
                 id: 2,
-                name: "Brownie 2",
+                name: "Brownie2",
                 price: "$4.99",
                 calorie: "50"
             },
             {
                 id: 3,
-                name: "Brownie 3",
+                name: "Brownie3",
                 price: "$4.99",
                 calorie: "50"
             },
             {
                 id: 4,
-                name: "Brownie 4",
+                name: "Brownie4",
                 price: "$4.99",
                 calorie: "50"
             },
             {
                 id: 5,
-                name: "Brownie 5",
+                name: "Brownie5",
                 price: "$4.99",
                 calorie: "50"
             },
@@ -38,6 +39,7 @@ export const PRODUCT = [
     {
         id: 1,
         name: "Cookies",
+        image: require("../Images/CookiesMain.jpg"),
         data: [
             {
                 id: 0,
@@ -62,6 +64,7 @@ export const PRODUCT = [
     {
         id: 2,
         name: "Cheesecakes",
+        image: require("../Images/CheesecakesMain.jpg"),
         data: [
             {
                 id: 0,
@@ -86,6 +89,7 @@ export const PRODUCT = [
     {
         id: 3,
         name: "Cake",
+        image: require("../Images/CakeMain.jpg"),
         data: [
             {
                 id: 0,

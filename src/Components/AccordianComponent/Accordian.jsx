@@ -13,7 +13,7 @@ const ProductAccordian = () => {
                     return (
                         <Container key={products.id}>
                             <h1>{`${products.name}`}</h1>
-                            <Accordian>
+                            <Accordian alwaysOpen>
                                 {products.data.map((prod) => {
                                     return (
                                         <Accordian.Item key={prod.id} eventKey={`${prod.id}`}>

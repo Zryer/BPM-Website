@@ -4,13 +4,13 @@ import Col from 'react-bootstrap/Container';
 
 const Home = () => {
     return (
-        <Container fluid>
-            <Row>
-                <Col>
-                    <h1>Bakery Name</h1>
-                </Col>
-            </Row>
-        </Container>
+            <Container className="mainContainer" fluid>
+                <Row>
+                    <Col>
+                        <h1>Bakery Name</h1>
+                    </Col>
+                </Row>
+            </Container>
     )
 }
 
