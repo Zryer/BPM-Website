@@ -11,7 +11,7 @@ const ProductsIndex = () => {
                 <Row>
                     {PRODUCT.map((product) => {
                         return (
-                            <Col xs={12} sm={6} md={4} lg={3} style={{display: "flex", justifyContent: "center"}}>
+                            <Col xs={12} sm={6} md={4} lg={3} style={{display: "flex", justifyContent: "center"}} key={product.id}>
                                 <Card className="productIndexCard" to={product.name} as={Link}>
                                     <Card.Img src={product.image} className="productIndexImage" />
                                     <Card.ImgOverlay>

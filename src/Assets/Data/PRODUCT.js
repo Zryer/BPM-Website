@@ -5,32 +5,33 @@ export const PRODUCT = [
         image: require("../Images/BrowniesMain.jpg"),
         data: [
             {
+                id: 0,
+                name: "Brownie 1",
+                image: require("../Images/BrowniesMain.jpg"),
+                price: "$4.99",
+                calorie: "50"
+            },
+            {
                 id: 1,
-                name: "Brownie1",
+                name: "Brownie 2",
                 price: "$4.99",
                 calorie: "50"
             },
             {
                 id: 2,
-                name: "Brownie2",
+                name: "Brownie 3",
                 price: "$4.99",
                 calorie: "50"
             },
             {
                 id: 3,
-                name: "Brownie3",
+                name: "Brownie 4",
                 price: "$4.99",
                 calorie: "50"
             },
             {
                 id: 4,
-                name: "Brownie4",
-                price: "$4.99",
-                calorie: "50"
-            },
-            {
-                id: 5,
-                name: "Brownie5",
+                name: "Brownie 5",
                 price: "$4.99",
                 calorie: "50"
             },
